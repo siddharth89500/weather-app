@@ -42,7 +42,7 @@ function updateDetails(locatinTemp, locationName, locationTime, locationConditio
     dateAndTimeField.innerText = `${splitDate} ${currentDay} ${splitTime}`;
     conditionField.innerText = locationCondition;
 
-    // Correctly update the image source
+    
     conditionIconField.src = `https:${conditionIcon}`;
 }
 
