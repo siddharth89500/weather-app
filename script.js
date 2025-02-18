@@ -11,7 +11,7 @@ let target = "bahadurgarh";
 
 const fetchResult = async (targetLocation) => {
     try {
-        let url = `http://api.weatherapi.com/v1/current.json?key=683570b89b5a4885a7e180849251502&q=${targetLocation}&aqi=no`;
+        let url = `https://api.weatherapi.com/v1/current.json?key=683570b89b5a4885a7e180849251502&q=${targetLocation}&aqi=no`;
         
         const res = await fetch(url);
         if (!res.ok) {
