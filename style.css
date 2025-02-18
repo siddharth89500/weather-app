@@ -15,7 +15,7 @@
     padding: 1rem;
 }
 
-/* Logo */
+
 .logo {
     height: 30px;
     position: absolute;
@@ -23,7 +23,7 @@
     top: 10px;
 }
 
-/* Weather Container */
+
 .weather_container {
     color: rgb(2, 117, 117);
     text-align: center;
@@ -31,25 +31,25 @@
     max-width: 400px;
 }
 
-/* Temperature */
+
 .temp {
     font-size: 3rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-/* Time and Location */
+
 .time_location {
     font-size: 1.5rem;
 }
 
-/* Weather Condition */
+
 .condition {
     margin-left: 0.2rem;
     font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Navigation Bar */
+
 nav {
     display: flex;
     justify-content: center;
@@ -60,7 +60,7 @@ nav {
     padding: 0.5rem;
 }
 
-/* Search Area */
+
 .searcharea {
     border: none;
     outline: none;
@@ -70,7 +70,7 @@ nav {
     font-size: 1rem;
 }
 
-/* Submit Button */
+
 .submitButton {
     width: 5rem;
     border: none;
@@ -82,7 +82,7 @@ nav {
     font-size: 1rem;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     .temp {
         font-size: 2.5rem;
